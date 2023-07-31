@@ -1,0 +1,122 @@
+@media(max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+}
+
+@media(max-width:768px) {
+    .header .navbar-list {
+        position: absolute;
+        top: 100%;
+        right: -110%;
+        padding: 20px;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #c0acac;
+        height: 100vh;
+        width: 90vw;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        display: none;
+    }
+
+    .navbar-list .my-profile {
+        display: block;
+    }
+
+    .icons {
+        justify-content: space-evenly;
+    }
+
+    .profile-nav-icons .profile, .profile-text {
+        display: none;
+    }
+
+    .header .navbar-list a {
+        font-size: 2.2rem;
+        padding: 10px;
+    }
+
+    .header .navbar-list.active {
+        right: 3rem;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #menu-btn {
+        display: flex;
+        right: 2rem;
+    }
+
+    .login-form {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        transform: translate(0px, 100px);
+        border-radius: 10px;
+        width: 350px;
+    }
+
+    .footer .address {
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer .foot-link {
+        margin: auto;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+
+    .footer .foot-social, ul {
+        text-align: center;
+        justify-content: center;
+    }
+
+    table {
+        font-size: 8px;
+    }
+
+}
+
+@media(max-width:450px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header .logo {
+        height: 40px;
+    }
+
+    .login-page a h4 {
+        margin-left: 5px;
+    }
+
+    .cart-btn {
+        padding: 5px;
+        font-size: 9px;
+        border-radius: 10px;
+        background: #FF79A2;
+        border: none;
+        color: white;
+    }
+
+    .sign-up-form .de-form {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:280px) {
+    .header .navbar-list.active {
+        right: 0rem;
+        flex-direction: column;
+        display: flex;
+    }
+}

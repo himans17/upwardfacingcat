@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice Layouts</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/bootstrap-css/bootstrap.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="assets/custom.css">
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="assets/responsive.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <a href="#"><img class="logo" src="assets/img/Logo.png"></a>
+        <nav class="navbar-list">
+            <a href="index.html">Home</a>
+            <a href="class-list.html">Class List</a>
+            <a href="#services">About Us</a>
+            <a href="profile.html">Sign Up As Teacher</a>
+            <a href="#contact">Contact us</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn"><i class="fas fa-bars fs-2"></i></div>
+            <div type="button" class="fas fa-shopping-cart fs-3 ms-2 position-relative" id="shopping-btn"></div>
+        </div>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <img src="assets/img/Logo.png" style="width:85px;">
+                <div class="content">
+                    <h3>Tomato</h3>
+                    <p class="price">$4.99</p>
+                    <p class="quantity">qty: 1</p>
+                </div>
+                <i class="fas fa-trash"></i>
+            </div>
+            <hr>
+            <div class="box">
+                <img src="assets/img/Logo.png" style="width:85px;">
+                <div class="content">
+                    <h3>Tomato</h3>
+                    <p class="price">$4.99</p>
+                    <p class="quantity">qty: 1</p>
+                </div>
+                <i class="fas fa-trash"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar -->
+
+    <!-- Banner -->
+    <div class="container-fluid banner">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <img src="assets/img/Mask group.png" style="height: 500px; max-width: 100%;">
+            </div>
+            <div class="col-lg-6 col-md-6 sign-up-form">
+                <div class="row align-content-center mx-auto justify-content-center position-relative">
+                    <div class="col-lg-6 col-md-6 mx-auto bg-light login-form">
+                        <div class="row login-signup d-flex justify-content-center">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <div class="nav-link active col-md-6 text-center" id="singup-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-singup" type="button" role="tab" aria-controls="nav-singup"
+                                    aria-selected="true">
+                                    <h3 class="de-form">Sing Up</h3>
+                                </div>
+                                <div class="nav-link col-md-6 text-center" id="logintab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-login" type="button" role="tab" aria-controls="nav-login"
+                                    aria-selected="false">
+                                    <h3 class="de-form">
+                                        Login
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="tab-content p-5" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-singup" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <h1>
+                                        Welcome To<br>
+                                        Upwardfacingcat
+                                    </h1>
+                                    <h4 class="pt-3">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi nostrum
+                                        architecto vel facilis minus. Quas?
+                                    </h4>
+                                    <button class="create-btn mb-2 mt-4">Create An Account</button>
+                                </div>
+                                <div class="tab-pane fade" id="nav-login" role="tabpanel" aria-labelledby="login-tab">
+                                    <div class="d-flex justify-content-around">
+                                        <div class="col-md-5 login-page">
+                                            <a href="#"
+                                                class="fb-login d-flex align-content-center justify-content-around">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                                <h4 class="align-content-center">Login With Facebook</h4>
+                                            </a href="#">
+                                        </div>
+                                        <div class="col-md-5 login-page">
+                                            <a href="#"
+                                                class="google-login d-flex align-content-center justify-content-around">
+                                                <i class="fa-brands fa-google"></i>
+                                                <h4 class="align-content-center">Login With Google</h4>
+                                            </a href="#">
+                                        </div>
+                                    </div>
+
+                                    <form class="mt-5">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control fs-4" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control fs-4" id="exampleInputPassword1"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="form-check fs-4">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                        </div>
+                                        <div class="justify-content-between d-flex mt-2">
+                                            <button type="submit" class="btn-submit">Submit</button>
+                                            <a href="#">
+                                                <p class="text-center fs-3 m-auto d-flex">Forgot our Paasword</p>
+                                            </a>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner -->
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="row mt-5 pt-3">
+            <div class="col-lg-2 col-md-2 mb-4 d-flex mx-auto">
+                <img class="footer-logo d-flex m-auto" src="assets/img/Logo.png">
+            </div>
+            <div class="col-lg-3 col-md-3 address">
+                <h2>Head Office</h2>
+                <p>Proin sed condimentum st,<br>
+                    vitae sodales #01-23455<br>
+                    Lorem ipsum,<br>
+                    Lipsum Dolores
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 foot-link">
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">HOW IT WORKS</a></li>
+                    <li><a href="#">WHY UPWARDFACINGCAT</a></li>
+                    <li><a href="#">PRICING</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 foot-social">
+                <h4>Connect With Us</h4>
+                <ul class="d-flex">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="ms-5"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">Copyright © Upwardfacingcat 2020. All right reserved.</h2>
+            </div>
+            <div class="col-md-6 d-flex policy justify-content-center">
+                <div>
+                    <a href="#">Terms & Condition</a>
+                </div>
+                <div>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <!-- Bootstrap Js -->
+    <script src="assets/bootstrap-js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Slick-Slider Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+    <!-- J-QUERY Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+    <!-- Custom Js -->
+    <script src="assets/main.js" text="script"></script>
+
+</body>
+
+</html>
