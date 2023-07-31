@@ -23,6 +23,7 @@
         flex-direction: column;
         display: flex;
         display: none;
+        z-index: 1;
     }
 
     .navbar-list .my-profile {
