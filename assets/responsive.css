@@ -114,7 +114,7 @@
     }
 }
 
-@media(max-width:534px) {
+@media(max-width:580px) {
     .cls-list .search-container button {
         right: 0%;
     }
